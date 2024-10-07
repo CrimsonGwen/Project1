@@ -1,3 +1,4 @@
+/*General*/
 body {
     font-family: "Roboto Serif", serif;
     font-optical-sizing: auto;
@@ -6,16 +7,23 @@ body {
     font-variation-settings:
       "wdth" 100,
       "GRAD" 0;
-    background-color: white;
+    background-color: #dbd8f0;
   }
-.Header{
-  position: absolute;
-  left: 10px;
-}
 
 ul{
   position: absolute;
-  right: 0px;
+  right: 5px;
+  top: 5px;
+}
+
+img{
+  border-radius: 20px;
+}
+
+/*Classes*/
+.Home{
+  text-align: center;
+
 }
 
 .Navbar{
@@ -25,7 +33,6 @@ ul{
   width: 10%;
   font-size: 20px ;
   text-decoration-thickness: 5px;
-  
 }
 
 .Navbar li{
@@ -41,8 +48,10 @@ ul{
 .Navbar a{
   display: block;
   text-decoration: none;
+  color: black;
 }
 
+/*ID*/
 #Home{
   background-color: #EAC5D8;
 }
