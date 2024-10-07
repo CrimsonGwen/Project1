@@ -1,0 +1,64 @@
+body {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "GRAD" 0;
+    background-color: white;
+  }
+.Header{
+  position: absolute;
+  left: 10px;
+}
+
+ul{
+  position: absolute;
+  right: 0px;
+}
+
+.Navbar{
+  list-style-type: none;
+  padding: 0px;
+  padding: 0px;
+  width: 10%;
+  font-size: 20px ;
+  text-decoration-thickness: 5px;
+  
+}
+
+.Navbar li{
+  background-color: #EAC5D8;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.Navbar a{
+  display: block;
+  text-decoration: none;
+}
+
+#Home{
+  background-color: #EAC5D8;
+}
+
+#CV{
+  background-color: #56cbf9;
+}
+
+#Ervaring{
+  background-color: white;
+}
+
+#Contact{
+  background-color: #56cbf9;
+}
+
+#Hobby{
+  background-color: #EAC5D8;
+}
