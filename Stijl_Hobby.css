@@ -1,0 +1,37 @@
+/*General*/
+body{
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "GRAD" 0;
+    background-color: #dbd8f0;
+  }
+
+.NavbarH{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+    font-size: 20px;
+    text-decoration-thickness: 5px;
+}
+
+.NavbarH li{
+    background-color: #EAC5D8;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.NavbarH a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
