@@ -30,23 +30,26 @@ img{
   list-style-type: none;
   padding: 0px;
   padding: 0px;
-  width: 10%;
+  width: 30%;
   font-size: 20px ;
   text-decoration-thickness: 5px;
 }
 
-.NavbarV li{
+/*.NavbarV li{
   padding: 10px;
   margin: 5px 0;
   border-radius: 5px;
   text-align: center;
   border: 2px solid black;
 }
+  (Niet in gebruik temp. Te verwijderen)*/
 
-.NavbarV a{
+.NavbarV li a{
   display: block;
   text-decoration: none;
   color: black;
+  padding: 10px;
+  text-align: center;
 }
 
 /*ID*/

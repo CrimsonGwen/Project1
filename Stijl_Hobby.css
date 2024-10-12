@@ -30,7 +30,7 @@ body{
     display: inline-block;
 }
 
-.NavbarH a{
+.NavbarH li a{
     display: block;
     text-decoration: none;
     color: black;
