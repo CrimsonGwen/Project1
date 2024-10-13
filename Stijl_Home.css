@@ -7,17 +7,19 @@ body {
     font-variation-settings:
       "wdth" 100,
       "GRAD" 0;
-    background-color: #dbd8f0;
+    background: url(foto/josh-felise-trvELSvNZoY-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
   }
-
-ul{
-  position: absolute;
-  right: 5px;
-  top: 5px;
-}
 
 img{
   border-radius: 20px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
 }
 
 /*Classes*/
@@ -26,29 +28,18 @@ img{
 
 }
 
-.NavbarV{
-  list-style-type: none;
-  padding: 0px;
-  padding: 0px;
-  width: 30%;
-  font-size: 20px ;
-  text-decoration-thickness: 5px;
+/*Classes*/
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/*.NavbarV li{
-  padding: 10px;
-  margin: 5px 0;
-  border-radius: 5px;
-  text-align: center;
-  border: 2px solid black;
-}
-  (Niet in gebruik temp. Te verwijderen)*/
-
-.NavbarV li a{
-  display: block;
-  text-decoration: none;
-  color: black;
-  padding: 10px;
+.flex-container>div{
+  margin: 0px;
+  font-size: 20px;
+  width: 400px;
   text-align: center;
 }
 
@@ -58,7 +49,7 @@ img{
 }
 
 #CV{
-  background-color: #56cbf9;
+  background-color:  #56cbf9;
 }
 
 #Ervaring{
@@ -66,11 +57,11 @@ img{
 }
 
 #Contact{
-  background-color: #56cbf9;
+  background-color: #EAC5D8;
 }
 
 #Hobby{
-  background-color: #EAC5D8;
+  background-color:#56cbf9;
 }
 
 #Home:hover, #CV:hover, #Ervaring:hover, #Contact:hover, #Hobby:hover{

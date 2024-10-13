@@ -7,7 +7,9 @@ body{
     font-variation-settings:
       "wdth" 100,
       "GRAD" 0;
-    background-color: #dbd8f0;
+    background: url(foto/aperture-vintage-SshYpuf607g-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
   }
 
 img{
@@ -56,4 +58,9 @@ td {
 /*ID's*/
 #TableHeader{
   background-color:#a31621;
+}
+
+#TableRows{
+  background-color: #dbd8f0;
+  color: black;
 }
