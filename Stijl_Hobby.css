@@ -10,10 +10,38 @@ body{
     background-color: #dbd8f0;
   }
 
+img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1, h2, h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+table, tr, td{
+  border: 2px black solid;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}
+
+/*Classes*/
 .flex-container{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: flex-end;
 }
 
 .flex-container>div{
@@ -22,11 +50,10 @@ body{
   font-size: 20px;
   width: 200px;
   text-align: center;
-  line-height: 75px;
   border: black 2px solid;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+/*ID's*/
+#TableHeader{
+  background-color:#a31621;
 }
